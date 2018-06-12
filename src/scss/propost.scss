@@ -1,0 +1,37 @@
+@import 'variables';
+@import 'mixin';
+
+
+.proPost__title{
+  @include title();
+  margin-top: 1.5em;
+}
+
+.proPost__img{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.proPost__img img{
+  width: 290px;
+  margin-bottom: 20px;
+
+}
+
+.proPost__nav{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10em;
+}
+
+
+.proPost__nav a{
+  @include button;
+  font-size: 2em;
+  margin-left: 1em;
+}

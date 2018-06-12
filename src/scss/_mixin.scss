@@ -1,0 +1,18 @@
+@mixin title{
+    font-size:4.5em;
+    margin-bottom: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(70,70,70)
+}
+
+@mixin button {
+    display: inline-block;
+    border: 1px solid black;
+    margin-top:4.6em;
+    padding: 0.7em 0;
+    text-transform: uppercase;
+    width: 200px;
+    text-align: center;
+}

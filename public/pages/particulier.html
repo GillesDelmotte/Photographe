@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Laurie-Anne Romagne - photographe">
+         <meta name="keywords" content="laurie, anne, photographe, mariage, professionnel, particulier, artistique, loft, sncb, reportage, grossesse, portrait, reverzhi, deep, errance, MUE, cigogne, goldroom, bretagne, huahine, gomme, bichromatées, studio, graphisme, dernier, jardin">
+         <meta name="author" content="Gilles Delmotte">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/bundle.css">
+    <link rel="icon" type="image/png" href="../assets/images/all/logo.png" />
+    <title>particulier - Laurie-Anne Romagne - Photographe</title>
+</head>
+<body>
+<div itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="familyName" content="Laurie-Anne Romagne">
+    <meta itemprop="jobTitle" content="Photographe">
+    <meta itemprop="description" content="Laurie-Anne Romagne est une artiste passionnée par la photographie. Depuis plusieurs années la photographie est son métier.Photographe variée, Laurie-Anne Romagne propose des photographies de grossesses, mariages, portraits, etc. Elle réalise également des expositions de ses compositions artistiques.">
+    <meta itemprop="image" content=" <img src='./assets/images/accueil/Mue 17 copie.jpg'>">
+    <meta itemprop="email" content="info@laurianne-romagne.com">
+    <meta itemprop="workLocation" content="Belgique">
+</div>
+    <header class="head cont__head">
+        <div class="flex">
+        <div class="head__title">
+        <a href="../index.html" class="logo">
+            <img src="../assets/images/all/logo.png" alt="" class="head__logo">
+            <h1>Laurie-Anne Romagne</h1>
+        </a>
+        </div>
+        <input id="burger" type="checkbox" class="checkbox"/>
+        <label for="burger" class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav class="head__mainNav mainNav">
+        <h2 class="hidden">navigation principale</h2>
+            <ul>
+                <li class="mainNav__link"><a href="../index.html" title="aller sur la page d'accueil">Accueil</a></li>
+                <li class="mainNav__link"><a href="professionnel.html" title="aller sur la page reprenant tous les travaux professionnel">Professionnels</a></li>
+                <li class="mainNav__link"><a href="#"  class="active" title="aller sur la page reprenant tous les travaux particulier">Particuliers</a></li>
+                <li class="mainNav__link"><a href="artistique.html" title="aller sur la page reprenant tous les travaux artistique">Artistiques</a></li>
+                <li class="mainNav__link"><a href="contact.php" title="aller sur la page contact">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <section class="part">
+        <h1 class="part__title">
+            particulier
+        </h1>
+        <select name="select" class="select" onChange="location.href=''+this.options[this.selectedIndex].value+'.html';">
+            <option class="select__opt" value="particulier">Choississez votre projet</option>
+            <option class="select__opt" value="particulierPost">Mariage</option>
+            <option class="select__opt" value="particulierPost">Grossesse</option>
+            <option class="select__opt" value="particulierPost">Portrait</option>
+        </select>
+        <div class="part__tabl">
+            <a href="./particulierpost.html" title="aller sur la page regroupant toutes les photos concerant le mariage">
+                <figure class="part__img">
+                    <img src="../assets/images/all/chaussure.png" alt="photo de chaussure a talon et d'une robe de mariée">
+                    <figcaption>
+                        mariage
+                    </figcaption>
+                </figure>
+            </a>
+            <a href="./particulierpost.html" title="aller sur la page regroupant toutes les photos concernat la grossesse">
+                <figure class="part__img">
+                    <img src="../assets/images/part/grosesse.jpg" alt="photo de mains d'adulte qui tiens les pieds d'un petit enfant">
+                    <figcaption>
+                        grossesse
+                    </figcaption>
+                </figure>
+            </a>
+            <a href="./particulierpost.html" title="aller sur la page regroupant toutes les photo concernant les portraits">
+                <figure class="part__img">
+                    <img src="../assets/images/part/portrait.jpg" alt="photo d'une petite fille dnas son lit entouré de pleins de peluches">
+                    <figcaption>
+                        portrait
+                    </figcaption>
+                </figure>
+            </a>
+        </div>
+    </section>
+    <section class="other">
+        <h2 class="other__title">
+            Mes travaux personnels
+        </h2>
+        <div class="other__img">
+            <img src="../assets/images/part/bretagne.jpg" alt="photo d'un petit bateau sur l'eau">
+            <img src="../assets/images/part/deep.jpg" alt="photo noir/blanc de deux mains">
+            <img src="../assets/images/part/mue.jpg" alt="photo de Laurie-Anne de cotée sur fond noir">
+        </div>
+        <a href="artistique.html" class="button" title="aller sur la page reprenant tous les projets artistique">Tous mes travaux</a>
+    </section>
+    <footer class="footer">
+        <div>
+            <a href="https://www.facebook.com/laurieanne.romagne" class="footer__logo"><img src="../assets/images/all/facebook.png" alt=""></a>
+            <a href="https://www.instagram.com/laurieanneromagne/?hl=fr" class="footer__logo"><img src="../assets/images/all/insta.png" alt=""></a>
+            <small><a href="mailto:info@laurieanne-romagne.com" title="envoyer un mail a Laurie-Anne Romagne">info@laurieanne-romagne.com</a></small>
+        </div>
+        <small>© Laurie-Anne Romagne - Photographie créative</small>
+    </footer>
+</body>
+</html>

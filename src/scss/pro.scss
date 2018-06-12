@@ -1,0 +1,46 @@
+@import 'variables';
+@import 'mixin';
+
+.pro{
+  padding-top: 5em;
+  margin: 0 12%;
+}
+
+.pro__title{
+  @include title();
+}
+
+.pro__tabl{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.pro__img{
+  position: relative;
+
+}
+
+
+.pro__img img{
+  box-shadow: $boxS;
+
+}
+
+.pro__img figcaption {
+  display: block;
+  text-align: center;
+  font-size: 2em;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.8em 0;
+  position: relative;
+  top: -52px;
+  color: white;
+}
+
+.pro__tabl a:hover{
+  position: relative;
+  top: -10px;
+  transition: 1s;
+}
+

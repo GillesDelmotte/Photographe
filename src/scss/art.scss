@@ -1,0 +1,45 @@
+@import 'variables';
+@import 'mixin';
+
+
+.art{
+  padding-top: 5em;
+  margin: 0 12%;
+}
+
+.art__title{
+  @include title();
+}
+
+.art__tabl{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.art__img{
+  position: relative;
+}
+
+.art__img img{
+  box-shadow: $boxS;
+
+}
+
+.art__img figcaption {
+  display: block;
+  text-align: center;
+  font-size: 2em;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.8em 0;
+  position: relative;
+  top: -52px;
+  color: white;
+
+}
+
+.art__tabl a:hover{
+  position: relative;
+  top: -10px;
+  transition: 1s;
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+@import 'variables';
+@import 'mixin';
+
+.portrait{
+  margin: 7em auto 2em;
+
+}
+
+.portrait__nav{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10em;
+}
+
+
+.portrait__nav a{
+  @include button;
+  font-size: 2em;
+  margin-left: 1em;
+}
+.portrait__title{
+  @include title;
+}
+
+
+.portrait__img{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.portrait__img img{
+  width: 290px;
+  margin-bottom: 20px;
+
+}

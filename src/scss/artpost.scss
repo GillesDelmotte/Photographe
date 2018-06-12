@@ -1,0 +1,80 @@
+@import 'variables';
+@import 'mixin';
+
+.post__title{
+  @include title();
+  margin-top: 2em;
+}
+
+.post__resume{
+  width: 60%;
+  font-size: 1.8em;
+  margin: 0 auto;
+  line-height: 1.4;
+  text-align: center;
+}
+
+blockquote{
+  width: 50%;
+  font-style: italic;
+  font-size: 2.5em;
+  line-height: 1.4;
+  text-align: center;
+  margin: 2em auto 4em;
+  color: $gold;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+blockquote p:last-of-type{
+  margin-top: 1.5em;
+  position: relative;
+  left: 150px;
+}
+
+.post__gallery{
+  width: 90%;
+  margin: 2em auto 13em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+
+}
+
+.button__gallery__next, .button__gallery__previous{
+  position: relative;
+  top: 150px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+.button__gallery__next:hover, .button__gallery__previous:hover{
+  background-color: $gold;
+}
+
+
+.mySlides{
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.post__nav{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10em;
+}
+
+.post__nav a{
+  @include button;
+  font-size: 2em;
+  margin-left: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
