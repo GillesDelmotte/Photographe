@@ -1,4 +1,7 @@
 @media(max-width: 950px){
+
+
+
   .mainNav ul{
     flex-direction: column;
     margin-top: 2em;
@@ -148,6 +151,12 @@
 }
 
 @media(max-width: 625px) {
+
+  .ind__head{
+    background: none;
+    height: auto;
+  }
+
   .proPost .proPost__img{
     justify-content: center;
   }
